@@ -1,0 +1,42 @@
+/*************************
+** BASE SETUP
+**************************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+
+/*************************
+** BASE ELEMENT STYLES
+**************************/
+
+
+
+
+/*************************
+** BASE CLASS STYLES
+**************************/
+
+.container {
+  width: 100%;
+  border: 5px solid black;
+
+}
+
+
+
+/*************************
+** BASE ID STYLES
+**************************/
