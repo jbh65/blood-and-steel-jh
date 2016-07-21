@@ -112,6 +112,7 @@ a:hover {
 .regular-text {
   font-family: 'Vesper Libre', serif;
   color: white;
+  font-size: 17px;
   padding: 10px;
   border: 1px solid white;
 }
