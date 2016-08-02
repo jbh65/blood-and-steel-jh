@@ -25,6 +25,9 @@ font-family: 'Vesper Libre', serif;
 
 
 
+
+
+
 /*************************
 ** BASE ELEMENT STYLES
 **************************/
@@ -92,8 +95,8 @@ a:hover {
 }
 
 .poem {
-  padding: 40px 5px 0px 5px;
-  font-family: 'Aref Ruqaa', serif;
+  padding: 10px 5px 0px 5px;
+  font-family: 'Vesper Libre', serif;
   color: #800000;
   font-size: 20px;
   text-align: center;
@@ -103,18 +106,107 @@ a:hover {
   margin-top: 40px;
   margin-bottom: 20px;
   font-family: 'Vesper Libre', serif;
-  color: white;
+  color: #E1E1E1;
   font-size: 35px;
   text-align: center;
-
 }
 
-.regular-text {
+.text-left,
+.text-right {
   font-family: 'Vesper Libre', serif;
-  color: white;
+  color: #E1E1E1;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.text-left p {
+  float: left;
+  padding: 2.5%;
+  margin: 0px;
+  /*border: 1px solid white;*/
+}
+
+.text-left img {
+  float: right;
+  padding: 2.5%;
+  /*border: 1px solid white;*/
+}
+
+.text-right p {
+  float: right;
+  padding: 2.5%;
+  margin: 0px;
+  /*border: 1px solid white;*/
+}
+
+.text-right img {
+  float: left;
+  padding: 2.5%;
+  margin: 0px;
+  /*border: 1px solid white;*/
+}
+
+.lore-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Vesper Libre', serif;
+  color: #E1E1E1;
+  font-size: 30px;
+  text-align: center;
+  padding: 0% 12% 0% 12%
+}
+
+.lore-text {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Vesper Libre', serif;
+  color: #E1E1E1;
+  font-size: 25px;
+  text-align: justify;
+  padding: 0% 12% 0% 12%
+}
+
+.faction-text {
+  font-family: 'Vesper Libre', serif;
+  color: #E1E1E1;
   font-size: 17px;
-  padding: 10px;
-  border: 1px solid white;
+}
+
+.faq-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Aref Ruqaa', serif;
+  color: #E1E1E1;
+  font-size: 30px;
+  text-align: center;
+  padding: 0% 12% 0% 12%
+}
+
+.question {
+  font-family: 'Aref Ruqaa', serif;
+  color: #E1E1E1;
+  font-size: 25px;
+  /*border: 1px solid white;*/
+  padding: 0% 20% 0% 20%;
+}
+
+.question:before {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.answer {
+  font-family: 'Vesper Libre', serif;
+  color: #E1E1E1;
+  font-size: 20px;
+  display: none;
+  padding: 0% 20% 0% 20%;
+  /*border: 1px solid white;*/
+}
+
+.question.is-active:before {
 }
 
 .foot-static {
@@ -125,9 +217,6 @@ a:hover {
   margin: 30px 0px 10px 0px;
 }
 
-.image-placeholder {
-
-}
 
 
 
