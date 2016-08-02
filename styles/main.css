@@ -25,6 +25,9 @@ font-family: 'Vesper Libre', serif;
 
 
 
+
+
+
 /*************************
 ** BASE ELEMENT STYLES
 **************************/
@@ -109,11 +112,32 @@ a:hover {
 
 }
 
-.regular-text {
+.text-left,
+.text-right {
   font-family: 'Vesper Libre', serif;
   color: white;
   font-size: 17px;
-  padding: 10px;
+  
+  /*border: 1px solid white;*/
+}
+
+.text-left p {
+  float: left;
+  border: 1px solid white;
+}
+
+.text-left img {
+  float: right;
+  border: 1px solid white;
+}
+
+.text-right p {
+  float: right;
+  border: 1px solid white;
+}
+
+.text-right img {
+  float: left;
   border: 1px solid white;
 }
 
