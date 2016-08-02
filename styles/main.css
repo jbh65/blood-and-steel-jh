@@ -95,7 +95,7 @@ a:hover {
 }
 
 .poem {
-  padding: 40px 5px 0px 5px;
+  padding: 10px 5px 0px 5px;
   font-family: 'Aref Ruqaa', serif;
   color: #800000;
   font-size: 20px;
@@ -109,7 +109,6 @@ a:hover {
   color: white;
   font-size: 35px;
   text-align: center;
-
 }
 
 .text-left,
@@ -117,28 +116,30 @@ a:hover {
   font-family: 'Vesper Libre', serif;
   color: white;
   font-size: 17px;
-  
-  /*border: 1px solid white;*/
 }
 
 .text-left p {
   float: left;
   border: 1px solid white;
+  padding: 2.5%;
 }
 
 .text-left img {
   float: right;
   border: 1px solid white;
+  padding: 2.5%;
 }
 
 .text-right p {
   float: right;
   border: 1px solid white;
+  padding: 2.5%;
 }
 
 .text-right img {
   float: left;
   border: 1px solid white;
+  padding: 2.5%;
 }
 
 .foot-static {
