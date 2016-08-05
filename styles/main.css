@@ -105,10 +105,18 @@ a:hover {
 .regular-title {
   margin-top: 40px;
   margin-bottom: 20px;
-  font-family: 'Vesper Libre', serif;
+  font-family: 'Aref Ruqaa', serif;
   color: #E1E1E1;
   font-size: 35px;
   text-align: center;
+}
+
+.regular-text {
+  font-family: 'Vesper Libre', serif;
+  color: #E1E1E1;
+  font-size: 17px;
+  margin: 2.5% 10% 0% 10%;
+  text-align: justify;
 }
 
 .text-left,
@@ -123,27 +131,23 @@ a:hover {
   float: left;
   padding: 2.5%;
   margin: 0px;
-  /*border: 1px solid white;*/
 }
 
 .text-left img {
   float: right;
   padding: 2.5%;
-  /*border: 1px solid white;*/
 }
 
 .text-right p {
   float: right;
   padding: 2.5%;
   margin: 0px;
-  /*border: 1px solid white;*/
 }
 
 .text-right img {
   float: left;
   padding: 2.5%;
   margin: 0px;
-  /*border: 1px solid white;*/
 }
 
 .lore-title {
@@ -166,10 +170,58 @@ a:hover {
   padding: 0% 12% 0% 12%
 }
 
+.faction-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Aref Ruqaa', serif;
+  color: #E1E1E1;
+  font-size: 35px;
+  text-align: center;
+}
+
+.faction-subtitle {
+  font-family: 'Vesper Libre', serif;
+  color: #E1E1E1;
+  font-size: 25px;
+  padding: 0% 8% 0% 8%;
+}
+
 .faction-text {
   font-family: 'Vesper Libre', serif;
   color: #E1E1E1;
   font-size: 17px;
+  padding: 2% 10% 0% 10%;
+  text-align: justify;
+}
+
+.faction-image {
+  margin-top: 3%;
+  padding: 2% 10% 2% 10%;
+  border: 1px solid white;
+}
+
+.faction-image-special {
+  margin-top: 10%;
+  padding: 2% 10% 2% 10%;
+  border: 1px solid white;
+}
+
+.downloads-title,
+.contact-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Vesper Libre', serif;
+  color: #E1E1E1;
+  font-size: 35px;
+  text-align: center;
+}
+
+.downloads-text,
+.contact-text {
+  font-family: 'Vesper Libre', serif;
+  color: #E1E1E1;
+  font-size: 20px;
+  padding-left: 20%;
 }
 
 .faq-title {
@@ -186,7 +238,6 @@ a:hover {
   font-family: 'Aref Ruqaa', serif;
   color: #E1E1E1;
   font-size: 25px;
-  /*border: 1px solid white;*/
   padding: 0% 20% 0% 20%;
 }
 
@@ -203,7 +254,6 @@ a:hover {
   font-size: 20px;
   display: none;
   padding: 0% 20% 0% 20%;
-  /*border: 1px solid white;*/
 }
 
 .question.is-active:before {
@@ -215,6 +265,7 @@ a:hover {
   font-size: 15px;
   text-align: center;
   margin: 30px 0px 10px 0px;
+  clear: both;
 }
 
 
