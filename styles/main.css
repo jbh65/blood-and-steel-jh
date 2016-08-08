@@ -197,13 +197,13 @@ a:hover {
 .faction-image {
   margin-top: 3%;
   padding: 2% 10% 2% 10%;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .faction-image-special {
   margin-top: 10%;
   padding: 2% 10% 2% 10%;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .downloads-title,
