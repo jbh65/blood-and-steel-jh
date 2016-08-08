@@ -75,6 +75,10 @@ a:hover {
   margin-bottom: 5px;
 }
 
+.not-centered .fp-tableCell {
+  vertical-align: top !important;
+}
+
 .nav-links {
   font-family: 'Aref Ruqaa', serif;
   color: #800000;
@@ -179,6 +183,10 @@ a:hover {
   text-align: center;
 }
 
+.factions-page {
+  margin-top: 100px;
+}
+
 .faction-subtitle {
   font-family: 'Vesper Libre', serif;
   color: #E1E1E1;
@@ -197,13 +205,17 @@ a:hover {
 .faction-image {
   margin-top: 3%;
   padding: 2% 10% 2% 10%;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .faction-image-special {
   margin-top: 10%;
   padding: 2% 10% 2% 10%;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
+}
+
+#fp-nav span {
+  background: #E1E1E1 !important;
 }
 
 .downloads-title,
