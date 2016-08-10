@@ -23,9 +23,22 @@
         <a class="nav-links" href="./contact.html">Contact</a>
       </nav>
     </header>
-    <div class="col-md-12 contact-title">
+    <div class="col-md-12">
+      <p class="contact-title">
+        Contact Us
+      </p>
       <p>
-        Coming soon...
+        <form class="contact-form" action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+          Name:<br>
+          <input class="contact-text" type="text" name="name" placeholder="Your name"><br>
+          E-mail:<br>
+          <input class="contact-text" type="text" name="mail" placeholder="Your email"><br>
+          Comment:<br>
+          <textarea class="contact-text" type="text" name="comment" placeholder="Your comment" rows="10" cols="50"></textarea>
+          <br><br>
+          <button class="email-button" type="submit" value="send">Submit</Button>
+          <button class="email-button" type="reset" value="reset">Reset</Button>
+        </form>
       </p>
     </div>
     <footer class="col-md-12 foot-static">
