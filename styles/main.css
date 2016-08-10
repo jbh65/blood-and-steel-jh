@@ -228,8 +228,7 @@ a:hover {
   text-align: center;
 }
 
-.downloads-text,
-.contact-text {
+.downloads-text {
   font-family: 'Vesper Libre', serif;
   color: #E1E1E1;
   font-size: 20px;
@@ -269,6 +268,26 @@ a:hover {
 }
 
 .question.is-active:before {
+}
+
+.contact-form {
+  font-family: 'Aref Ruqaa', serif;
+  text-align: left;
+  margin-left: 350px;
+  font-size: 20px;
+  color: #E1E1E1;
+}
+
+.contact-text {
+  color: black;
+  font-family: 'Vesper Libre', serif;
+}
+
+.email-button {
+  background-color: #E1E1E1;
+  color: black;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 15px;  
 }
 
 .foot-static {
